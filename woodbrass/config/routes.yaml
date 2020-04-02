@@ -1,0 +1,15 @@
+home:
+    path: /
+    controller: App\Controller\AppController::home
+
+contact:
+    path: /contact
+    controller: App\Controller\AppController::contact
+
+products:
+    path: /les-produits
+    controller: App\Controller\AppController::products
+  
+product:
+    path: /les-produits/{id}
+    controller: App\Controller\AppController::product

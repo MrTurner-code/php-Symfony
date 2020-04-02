@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ parent() }} | {{ instrument.model }}{% endblock %}
+
+{% block body %}
+    <h1>
+      {{ instrument.model }} ({{ instrument.brand.name }})
+      {% if instrument.available %}
+        ✅
+      {% else %}
+        ❌
+      {% endif %}
+    </h1>
+    <p>{{ instrument.description }}</p>
+{% endblock %}

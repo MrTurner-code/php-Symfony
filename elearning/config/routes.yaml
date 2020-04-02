@@ -1,0 +1,23 @@
+home:
+    path: /
+    controller: App\Controller\AppController::home
+
+courses:
+    path: /cours
+    controller: App\Controller\AppController::courses
+  
+course:
+    path: /cours/{slug}
+    controller: App\Controller\AppController::course
+
+add_course:
+    path: /ajouter-cours
+    controller: App\Controller\AppController::addCourse
+
+edit_course:
+    path: /editer-cours/{slug}
+    controller: App\Controller\AppController::editCourse
+
+delete_course:
+    path: /supprimer-cours/{slug}
+    controller: App\Controller\AppController::deleteCourse

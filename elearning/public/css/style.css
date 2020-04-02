@@ -1,0 +1,29 @@
+body {
+  background-color: lightblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.float-right {
+  float:right;
+}
+
+.fas { margin: 0 5px; }
+.fa-edit { color: #000; }
+.fa-trash { color: #FF0000; }
+
+a:hover { color: darkorange; }
+
+header, footer {
+  background-color: #000;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer p { color: #fff; }
+header nav a,
+footer a { margin: 0 5px; color: lightblue; }
+
+footer p { margin: 0 };

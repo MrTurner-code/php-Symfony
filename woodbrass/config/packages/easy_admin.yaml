@@ -1,0 +1,7 @@
+easy_admin:
+    site_name: 'Backoffice <em style="font-size: 80%;">- Le Carrelet</em>'
+    entities:
+        # List the entity class name you want to manage
+        - App\Entity\Instrument
+        - App\Entity\Category
+        - App\Entity\Brand
